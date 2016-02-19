@@ -42,6 +42,7 @@
 		678BE51416F841E7006EED6B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 678BE51316F841E7006EED6B /* Default@2x.png */; };
 		678BE51616F841E7006EED6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 678BE51516F841E7006EED6B /* Default-568h@2x.png */; };
 		678BE51C16F841E7006EED6B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 678BE51A16F841E7006EED6B /* ViewController.xib */; };
+		9B7D59A41C76EF60004530D7 /* RDPBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1354907A17BBA14C0047E664 /* RDPBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -365,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7D59A41C76EF60004530D7 /* RDPBundle.bundle in Resources */,
 				678BE50A16F841E7006EED6B /* InfoPlist.strings in Resources */,
 				678BE51216F841E7006EED6B /* Default.png in Resources */,
 				678BE51416F841E7006EED6B /* Default@2x.png in Resources */,
@@ -444,7 +446,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/libRDP.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libRDP/libRDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "Realtime Debug Protal/Realtime Debug Protal-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -456,7 +458,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/libRDP.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libRDP/libRDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "Realtime Debug Protal/Realtime Debug Protal-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -523,7 +525,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Realtime Debug Protal/Realtime Debug Protal-Prefix.pch";
 				INFOPLIST_FILE = "Realtime Debug Protal/Realtime Debug Protal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -536,7 +538,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Realtime Debug Protal/Realtime Debug Protal-Prefix.pch";
 				INFOPLIST_FILE = "Realtime Debug Protal/Realtime Debug Protal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

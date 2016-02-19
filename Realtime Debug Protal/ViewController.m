@@ -26,6 +26,23 @@
     [btn addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
     btn.backgroundColor = [UIColor redColor];
     [self.view addSubview:btn];
+
+    
+    btn = [[[UIButton alloc]initWithFrame:CGRectMake(10,80, 200, 50)]autorelease];
+    [btn setTitle:[@(self.navigationController.viewControllers.count) description] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
+    btn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:btn];
+    
+    
+    
+    btn = [[[UIButton alloc]initWithFrame:CGRectMake(10,110, 200, 50)]autorelease];
+    [btn setTitle:[@(self.navigationController.viewControllers.count) description] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
+    btn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:btn];
+    
+    
     
     if (self.navigationController.viewControllers.count == 1) {
         [RDP startServer];
